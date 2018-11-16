@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite,Firefox 63.0,,2018-11-14 16:13:26,2018-11-14 16:13:51,24.559s,PASSED
+,,,,,,
+Test Cases/LoginFailed,Firefox 63.0,,2018-11-14 16:13:27,2018-11-14 16:13:49,21.922s,PASSED
+openBrowser,Firefox 63.0,,2018-11-14 16:13:27,2018-11-14 16:13:44,16.460s,PASSED
+navigateToUrl,Firefox 63.0,,2018-11-14 16:13:44,2018-11-14 16:13:46,2.662s,PASSED
+setText,Firefox 63.0,,2018-11-14 16:13:46,2018-11-14 16:13:47,0.344s,PASSED
+setEncryptedText,Firefox 63.0,,2018-11-14 16:13:47,2018-11-14 16:13:47,0.249s,PASSED
+click,Firefox 63.0,,2018-11-14 16:13:47,2018-11-14 16:13:49,1.522s,PASSED
+verifyElementPresent,Firefox 63.0,,2018-11-14 16:13:49,2018-11-14 16:13:49,0.088s,PASSED
