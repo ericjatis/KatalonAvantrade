@@ -4,7 +4,17 @@
    <name>div_Search</name>
    <tag></tag>
    <elementGuidId>cc91aca0-9725-44b4-8f65-2ff4f90e3a09</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 't1BQ71-cave' and (text() = ' Search' or . = ' Search')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = ' Search' or . = ' Search')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

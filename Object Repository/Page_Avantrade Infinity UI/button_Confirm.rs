@@ -4,7 +4,17 @@
    <name>button_Confirm</name>
    <tag></tag>
    <elementGuidId>99e0ee55-db64-4ee1-8b6e-c55e8c5f2e30</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @id = 't1BQu00' and (text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Confirm' or . = 'Confirm')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

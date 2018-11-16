@@ -4,7 +4,17 @@
    <name>div_City</name>
    <tag></tag>
    <elementGuidId>d2c7dfce-b2f2-4ec2-9ad3-e28ca2d31b6a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 't1BQ91-cave' and (text() = ' City' or . = ' City')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = ' City' or . = ' City')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

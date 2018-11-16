@@ -4,7 +4,17 @@
    <name>button_Search</name>
    <tag></tag>
    <elementGuidId>a5caf224-2f16-4c68-86d2-bb267f55b8e2</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @id = 't1BQ070' and (text() = 'Search' or . = 'Search')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Search' or . = 'Search')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

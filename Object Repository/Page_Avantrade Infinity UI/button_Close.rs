@@ -4,7 +4,17 @@
    <name>button_Close</name>
    <tag></tag>
    <elementGuidId>64a39341-3829-4d55-a911-a2b2c42bc662</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @id = 't1BQ310' and (text() = 'Close' or . = 'Close')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

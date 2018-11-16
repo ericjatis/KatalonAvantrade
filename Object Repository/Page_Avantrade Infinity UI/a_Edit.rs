@@ -4,7 +4,17 @@
    <name>a_Edit</name>
    <tag></tag>
    <elementGuidId>9a0c4eb6-d768-413a-a4b1-3b451da9816e</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@id = 't1BQk70' and @href = 'javascript:;' and (text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href = 'javascript:;' and (text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

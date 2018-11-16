@@ -4,7 +4,17 @@
    <name>div_Administration</name>
    <tag></tag>
    <elementGuidId>fc7052eb-3fcd-4994-830e-e7ba479c5158</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'e5xPg4-cave' and (text() = ' Administration' or . = ' Administration')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = ' Administration' or . = ' Administration')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
